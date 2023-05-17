@@ -1,5 +1,4 @@
-﻿using Mindmagma.Curses;
-using System;
+﻿using System;
 
 namespace kgame_sharp
 {
@@ -7,9 +6,7 @@ namespace kgame_sharp
     {
         static void Main(string[] args)
         {
-            var Screen = NCurses.InitScreen();
-            NCurses.NoDelay(Screen, true);
-            NCurses.NoEcho();
+            Console.WriteLine("Waiting for a Sharpie...");
         }
     }
 }
